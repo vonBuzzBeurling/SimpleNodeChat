@@ -1,0 +1,89 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*
+==============================================================
+*/
+
+#connectWrapper {
+}
+
+/*
+==============================================================
+*/
+
+#textBoxWrapper {
+    padding: 10px;
+}
+
+.msgContainer {
+	
+}
+
+.msgTime {
+	color: #999999;
+}
+
+.msgUser {
+	color: #123456;
+}
+
+.msgContent {
+	color: #333333;
+}
+
+.error {
+    color: red;
+}
+
+.info {
+    color: green;
+}
+
+
+/*
+==============================================================
+*/
+
+#controlWrapper {
+    position: absolute;
+    bottom: 0px;
+    padding: 5px 0px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.bt {
+    color: #333333;
+    z-index: 1;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #333333;
+    border-radius: 0px 7px;
+    padding: 1px;
+    transition-duration: 0.3sec;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color;
+}
+
+.btTxt {
+	z-index: -1;
+    -webkit-user-select: none;
+}
+
+.bt:hover {
+    background-color: aqua;
+}
+
+#inputMessage {
+    margin-left: 10px;
+    width: 300px;
+}

@@ -1,0 +1,21 @@
+{
+    "main": "main.html",
+    "name": "Chat",
+    "version": "Alpha 0.0.1",
+    "nodejs": true,
+    "single-instance": false,
+    "window": {
+        "title": "Chat",
+        "toolbar": true,
+        "icon": "images/36x36.png",
+        "position": "center",
+        "frame": true,
+        "min-width": 900,
+        "min-height": 480,
+        "fullscreen": false,
+        "kiosk": false
+    },
+    "webkit": {
+        "plugin": true
+    }
+}
