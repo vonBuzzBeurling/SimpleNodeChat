@@ -7,7 +7,7 @@
     "window": {
         "title": "Chat",
         "toolbar": true,
-        "icon": "images/36x36.png",
+        "icon": "images/iconNew.png",
         "position": "center",
         "frame": true,
         "min-width": 900,
